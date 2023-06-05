@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="spanish">
+    <meta name="author" content="Victor Roberto Curzio">
+    <meta name="keywords" content="Encriptador, Oracle, Alura, Proyecto">
+    <meta name="title" content="Encriptador | Oracle + Alura">
+    <meta name="description"
+        content="Proyecto propuesto por ONE (Oracle Next Education) + Alura utilizando HTML, CSS y Javascript">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./favicon/icono.png" type="image/x-icon">
+    <title>Encriptador de texto - One</title>
+</head>
+
+<body>
+    <nav>
+        <img src="./img/Logo.png" alt="Logo de Alura" class="logo">
+    </nav>
+    <main>
+        <form action="">
+            <div class="contenedor-padre">
+                <textarea name="" id="textareaEscribir" cols="45" rows="11"></textarea>
+                <section>
+                    <img src="./img/Muñeco.png" alt="No se encontró texto" class="noEncontrado">
+                    <h2>Ningún mensaje fue encontrado</h2>
+                    <p class="textoDesencriptado">Ingrese el texto que desees encriptar o desencriptar.</p>
+                    <p id="resultadoEncriptado"></p>
+                </section>
+                <p id="textoEncriptador"><i class="fa-solid fa-circle-exclamation" style="color: #495057;"></i> Solo
+                    letras
+                    minúsculas y sin acentos</p>
+                <input type="button" value="Encriptar" id="btnEncriptar" class="btn">
+                <input type="button" value="Desencriptar" id="btnDesencriptar" class="btn">
+            </div>
+        </form>
+    </main>
+    <footer>Creado por <a href="https://www.linkedin.com/in/victor-roberto-curzio/" target="_blank">Curzio Victor
+            Roberto</a></footer>
+    <script src="./main.js"></script>
+</body>
+
+</html>
