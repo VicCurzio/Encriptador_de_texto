@@ -6,3 +6,4 @@ Registro de revisiones del repositorio.
 - revision 03
 - revision 04
 - revision 05
+- revision 06
